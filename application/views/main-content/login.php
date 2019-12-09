@@ -24,9 +24,9 @@
 		</form>
 
 		<!-- Remind Passowrd -->
-		<div id="formFooter">
-			<a href="<?= base_url('forgot-password');?>">Forgot Password?</a>
-		</div>
+		<!-- <div id="formFooter">
+			<a href="<?//= base_url('forgot-password');?>">Forgot Password?</a>
+		</div> -->
 
 	</div>
 </div>

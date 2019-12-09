@@ -23,10 +23,8 @@ class Login extends CI_Controller {
 		//check username is correct or not
 		$status_login = $this->User_model->check_login($username,$password);
 		if($status_login){
-			$id_user = $this->User_model->get_id($username,$password);
 			//add data to session
-			$data_session = array('username' => $username, 'status' => $status_login, 'id_user' => $id_user);
-			
+			$data_session = array('username' => $username, 'status' => $status_login);
 			$this->session->set_userdata($data_session);
 			redirect(base_url());
 		}else{
@@ -43,6 +41,6 @@ class Login extends CI_Controller {
 
 	public function logout(){
 		$this->session->sess_destroy();
-		redirect(base_url());
+		redirect(base_url('login'));
 	}
 }
