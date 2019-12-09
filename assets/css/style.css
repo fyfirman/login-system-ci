@@ -79,7 +79,7 @@ section{
   color: white;
   float:left;
 }
-
+/*
 .type-ppt{
   background: linear-gradient(to right, #e68620,  #e86607);
 }
@@ -94,7 +94,7 @@ section{
   text-align: center;
   margin-top: 12px;
 }
-
+*/
 #tabel{
   display: grid;
   grid-template-columns:35% 35% 35%;
@@ -146,7 +146,7 @@ section{
   margin-left:;
 }
 /*paging*/
-.center{
+/*.center{
   text-align: center;
   margin-top: 25.7%;
 }
@@ -168,7 +168,7 @@ section{
   background-color: #7D8CA3;
   color: white;
   border: 1px solid #4CAF50;
-}
+}*/
 
 .pagination a:hover:not(.active) {background-color: #007791;color: white;}
 
@@ -201,7 +201,7 @@ div>h3{
 }
 
 /*Download*/
-.download-button{
+/*.download-button{
   width: 233px;
   height: 42px;
   border: 1px solid;
@@ -230,7 +230,7 @@ div>h3{
   .body-download>div>h1{
     font-size:24pt !important;
   }
-}
+}*/
 
 /*
 .File{
@@ -283,7 +283,7 @@ footer{
 }
 
 /* Profile Content */
-.profile-container{
+/*.profile-container{
   min-height: 75%;
   background-color: white;
   border : 1px solid  #DEDFE0;
@@ -321,15 +321,15 @@ footer{
 }
 
 #delete-button{
-  text-align: center;
-    color: rgb(0, 52, 64);
+  text-align: center;*/
+    /*color: rgb(0, 52, 64);*/
   
     /* Box */
-    border: 1px solid rgb(0, 52, 64);
+   /* border: 1px solid rgb(0, 52, 64);
     margin: 0px 0px 0px 24px;
-    padding: 10px 12px 11px;
+    padding: 10px 12px 11px;*/
 
     /* Effects */
-    border-radius: 2px;
-  }
+    /*border-radius: 2px;*/
+  /*}*/
 }

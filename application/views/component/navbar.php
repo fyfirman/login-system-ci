@@ -9,9 +9,9 @@
           <?php endif ?>
       </div>
       <!--Logo -->
-      <!-- <div id="brand-logo" class="col-md-4 col-xs-6">
-        <a href="<?= base_url()?>"><img src="" style="width: 80px"></a>
-      </div>  -->
+      <div id="brand-logo" class="col-md-4 col-xs-6">
+        <!-- <a href="<?= base_url()?>"><img src="" style="width: 80px"></a> -->
+      </div> 
 
       <!-- logout -->
       <div id="log" class="col-md-4 col-xs-6">

@@ -19,7 +19,7 @@
   width: 100%;
   min-height: 95%;
   padding: 20px;
-  background: linear-gradient(to right, #0099cc,  #0563af);
+  background: linear-gradient(to right,  #f9dee2,  #fcb5cb);
   
 }
 
@@ -53,12 +53,12 @@ h2.inactive {
 
 h2.active {
   color: #0d0d0d;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #fcb5cb;
 }
 
 /* FORM TYPOGRAPHY*/
 #signButton{
-  background-color: #56baed;
+  background-color: #fcb5cb;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -78,7 +78,7 @@ h2.active {
 }
 
 #signButton:hover {
-  background-color: #3da6db;
+  background-color:#f9dee2;
 }
 
 #signButton:active  {
@@ -91,6 +91,7 @@ h2.active {
 
 .signForm{
   background-color: #f6f6f6;
+  /*#fcb5cb;*/
   border: none;
   color: #0d0d0d;
   padding: 15px 32px;
@@ -112,7 +113,7 @@ h2.active {
 
 .signForm:focus {
   background-color: #fff;
-  border-bottom: 2px solid #5fbae9;
+  border-bottom: 2px solid #f9dee2;
 }
 
 .signForm:placeholder {

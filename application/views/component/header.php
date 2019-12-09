@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html>
 <head>
-  <title>Umami</title>
+  <title>Login System</title>
   <meta charset="utf-8">
 
 
@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Style -->
-  <link href="<?php echo base_url()?>assets/img/umami-icon.png" rel="icon" />
+  <!-- <link href="<?php echo base_url()?>assets/img/umami-icon.png" rel="icon" /> -->
   <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet" />
   <link href="<?php echo base_url()?>assets/css/loading-spinner.css" rel="stylesheet" />
   <link href="<?php echo base_url()?>assets/css/login.css" rel="stylesheet" />
